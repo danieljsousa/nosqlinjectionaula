@@ -26,12 +26,12 @@ public class ValidaLoginTest{
 		assertEquals(sevalidou, true);
 	}
 
-	/*@Test
+	@Test
 	public void testLoginInject1(){
 		ValidaLogin auxValida = new ValidaLogin();
 		boolean sevalidou = auxValida.processaLogin("' or true --","qualquersenha");
 		assertEquals(sevalidou, false);
-	}*/
+	}
 }
 
 
